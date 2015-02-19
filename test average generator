@@ -25,7 +25,7 @@ while i >= 0.0:
         
     
 #calculating average with a for-loop
-j = int(i + 1)
+j = int(i)
 average =int(float(total / j))
 
 #giving the info back to the user
