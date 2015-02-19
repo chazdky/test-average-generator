@@ -1,0 +1,17 @@
+Write a program that allows the user to enter a series of exam scores. 
+The number of scores the user can enter is not fixed; they can enter any number of scores they want.
+The exam scores can be either integers or floats. 
+Then, once the user has entered all the scores they want, your program will calculate the average of those scores.
+You need to use a while loop to allow the user to enter numbers, one at a time, until some numeric sentinel value is entered. 
+I recommend having a sentinel like 999, something unlikely to be confused with an exam score. 
+If the user enters a score < 0 or > 100 that is not the sentinel value then that score is to be rejected.
+Each time a legit score is entered, however, it should be added (appended) to a list.
+Once the user has entered all the numbers they want, 
+you should use a for-loop to calculate and display the average of the scores, rounded to 1 decimal place.
+
+To get full credit, you need to do the following.
+•	Use a while-loop to allow the user to enter any number of exam scores, one number per line, until a sentinel value is entered.
+•	Legitimate exam scores should be added to a list, bogus scores should be rejected. If a bogus score is entered have the user reenter the score.
+•	Once all scores have been entered use a for-loop to calculate the average of the scores, rounded to 1 decimal place.
+•	Put your name in a comment near the top of the program file.
+•	Have the output statement give the number of scores averaged as well as the average itself.
